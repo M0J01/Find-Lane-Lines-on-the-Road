@@ -35,8 +35,9 @@ test_videos_output - output directory for test videos post annotation.
 
 
 
-Extra Info for Jupyter Notebook and perfomring initial set up of environment.
 
+Extra Info for Jupyter Notebook and perfomring initial set up of environment.
+---
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 ## If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go!   If not, you should install the starter kit to get started on this project. ##
