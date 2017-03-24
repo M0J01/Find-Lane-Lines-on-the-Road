@@ -1,39 +1,43 @@
-#**Finding Lane Lines on the Road** 
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+#**Project 1 - Finding Lane Lines on the Road** 
 
 <img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" />
+This project was written during the course of UDACity's Self Driving Car NanoDegree Program.
+
 
 Overview
+--- Python 3.6
+
+The purpose of this project is to take in an image or video append red markings on the areas to denote Lane Lines a car will have to apprecaite in the near future.
+
+The main source code (python 3.6) can be found in the file P1.ipynb. Please note that this is a Jupiter Notebook file, that includes inline annotations. The Python code can be extracted from this file, and run in a standalone file just fine. If you would like advice on how to set up jupiter notebook, please contact me at John.Moody@Ieee.org.
+
+The program takes in images from test_images and outputs to test_images_output (go figure?)
+The program takes in Named Videos from test_videos and outputs to test_videos_output. Note, the values for the videos in test_video are hard coded, if you would like to adapt it to perform lane detection on any video in the test_videos file, please adapt it to do so in a similar form to how test_images are read.
+Note* - You may run into a memory error when performing the processing on the second and third video. This happened to me as well, however only when running on my native machine. The code hit no memory errors when run in Jupyter notebook. More info can be found on jupyter notebook at the bottom of this README, or through contacting me if you wish.
+
+The orriginal Github for this project can be found here [code](https://github.com/udacity/CarND-LaneLines-P1/blob/master/P1.ipynb)
+The rubric for this project can be found here [project rubric](https://review.udacity.com/#!/rubrics/322/view)
+
+
+Included Files
 ---
-
-When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
-
-In this project you will detect lane lines in images using Python and OpenCV.  OpenCV means "Open-Source Computer Vision", which is a package that has many useful tools for analyzing images.  
-
-To complete the project, two files will be submitted: a file containing project code and a file containing a brief write up explaining your solution. We have included template files to be used both for the [code](https://github.com/udacity/CarND-LaneLines-P1/blob/master/P1.ipynb) and the [writeup](https://github.com/udacity/CarND-LaneLines-P1/blob/master/writeup_template.md).The code file is called P1.ipynb and the writeup template is writeup_template.md 
-
-To meet specifications in the project, take a look at the requirements in the [project rubric](https://review.udacity.com/#!/rubrics/322/view)
-
-
-Creating a Great Writeup
----
-For this project, a great writeup should provide a detailed response to the "Reflection" section of the [project rubric](https://review.udacity.com/#!/rubrics/322/view). There are three parts to the reflection:
-
-1. Describe the pipeline
-
-2. Identify any shortcomings
-
-3. Suggest possible improvements
-
-We encourage using images in your writeup to demonstrate how your pipeline works.  
-
-All that said, please be concise!  We're not looking for you to write a book here: just a brief description.
-
-You're not required to use markdown for your writeup.  If you use another method please just submit a pdf of your writeup. Here is a link to a [writeup template file](https://github.com/udacity/CarND-LaneLines-P1/blob/master/writeup_template.md). 
+P1.ipynb - Source code in Jupyter Notebook form
+Writeup - Relfections on this project
+Writeup Template - Pre-reflection writeup
+examples - ideal example outputs
+test_images - images to test program on
+test_images_output - output directory for test images post annotation
+test_videos - videos to test program on
+test_videos_output - output directory for test videos post annotation.
 
 
-The Project
----
+
+
+
+
+Extra Info for Jupyter Notebook and perfomring initial set up of environment.
+
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 ## If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go!   If not, you should install the starter kit to get started on this project. ##
 
@@ -49,5 +53,4 @@ Jupyter is an Ipython notebook where you can run blocks of code and see results 
 
 A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project.  
 
-**Step 3:** Complete the project and submit both the Ipython notebook and the project writeup
 
